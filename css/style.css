@@ -20,7 +20,8 @@ p{
     background-color: rgb(215, 234, 250);
     border-style: solid;
     max-width: 100%;
-    min-width: 50%;
+    min-width: 60%;
+    
 }
 #INTRO{
     background-color: rgb(127, 162, 195);
@@ -125,4 +126,35 @@ li{
 }
 hr{
     border-top: 5px solid #000000;
+}
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 14px;
+    }
+
+    .smallf {
+        font-size: 12px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+
+    li {
+        padding: 3px;
+    }
+
+    .lin {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .box1, .box2, .box3, .box4 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #WRAP {
+        margin: 5px;
+    }
 }
