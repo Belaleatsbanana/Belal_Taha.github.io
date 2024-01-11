@@ -1,0 +1,128 @@
+body{
+    background-color:rgb(61, 111, 203);
+}
+h1, h2, h3, h4, h5, h6, p,span {
+    margin: 0; /* Remove margin for all headings and paragraphs */
+    padding: 0; /* Remove padding for all headings and paragraphs */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+    font-size: 25px;
+    margin: 5%;
+}
+
+#WRAP{
+    width:auto;
+    height: 150vh;
+    margin: 100px 15%;
+    min-height: auto;
+    background-color: rgb(215, 234, 250);
+    border-style: solid;
+    max-width: 100%;
+    min-width: 50%;
+}
+#INTRO{
+    background-color: rgb(127, 162, 195);
+    padding:50px;
+    display: flex;
+    border-bottom: 3px solid #000000;
+    
+}
+.round_img{
+    border-radius: 50%;
+}
+
+.sub-box {
+    flex: 1;
+    height: 200px; /* Set the desired height for both sub-boxes */
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+.left-align-text{
+    text-align: left;
+}
+
+#EDU{
+    padding:20px;
+    display: flex;
+}
+p img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio when resizing */
+    width: 5%; /* Adjust the width as needed */
+}
+#EDU p{
+    text-align: left;
+}
+.box1 {
+    width:60%; /* Set the desired width for the first box */
+    height: 200px;
+    max-height: fit-content; /* Set the desired height for both boxes */
+    text-align: center;
+    box-sizing: border-box;
+}
+.box2 {
+    width: 45%; 
+    height: 200px;
+    max-height: fit-content;
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+.box3 {
+    width:60%; /* Set the desired width for the first box */
+    height: 270px;
+    max-height: fit-content; /* Set the desired height for both boxes */
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+.box4 {
+    width: 45%; 
+    height: 270px;
+    max-height: fit-content;
+    text-align: center;
+    
+    box-sizing: border-box;
+}
+.smallf{
+    font-size: 15px;
+    text-align: left;
+}
+p.center-align-text{
+    text-align: center;
+}
+.right-align-text{
+    text-align: right;
+    float: right;
+}
+#Ref{
+    padding: 0 20px;
+    display: flex;
+    
+}
+.lin{
+    font-size: 20px;
+    text-align: left;
+    float:left;
+    padding: 20px 60px;
+}
+.align-center{
+    text-align: center;
+}
+ul{
+    font-size: 20px;
+}
+li{
+    padding: 5px;
+}
+#footsy{
+    position: relative;
+    border-style: solid;
+     
+}
+hr{
+    border-top: 5px solid #000000;
+}
