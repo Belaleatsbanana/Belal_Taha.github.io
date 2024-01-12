@@ -128,33 +128,46 @@ hr{
     border-top: 5px solid #000000;
 }
 @media only screen and (max-width: 600px) {
+    #INTRO{
+        padding: 8px;
+    }
+    img{
+        width: 70%;
+        height: auto;
+    }
+    span{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 12px;
+    }
     p {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .smallf {
-        font-size: 12px;
+        font-size: 8px;
+        float: left;
     }
 
     ul {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     li {
-        padding: 3px;
+        padding: 1px;
     }
 
     .lin {
-        font-size: 14px;
-        padding: 10px;
+        font-size: 8px;
+        padding: 3px;
     }
 
-    .box1, .box2, .box3, .box4 {
-        width: 100%;
-        margin-bottom: 5px;
+    .sub-box, .box1, .box2, .box3, .box4 {
+        margin-bottom: 3px;
     }
 
     #WRAP {
-        margin: 5px;
+        margin: 3px;
     }
 }
