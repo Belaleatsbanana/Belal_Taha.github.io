@@ -168,6 +168,7 @@ hr{
     }
 
     #WRAP {
+        height: 50%;
         margin: 3px;
     }
 }
